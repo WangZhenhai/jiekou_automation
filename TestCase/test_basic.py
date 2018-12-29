@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/7/30 下午4:14
-# @Author  : WangJuan
 # @File    : Test_Basic.py
 
 import sys
@@ -10,11 +9,11 @@ import allure
 import pytest
 sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
 
-from API_Automation.Params.params import Basic
-from API_Automation.Conf.Config import Config
-from API_Automation.Common import Request
-from API_Automation.Common import Consts
-from API_Automation.Common import Assert
+from Params.params import Basic
+from Conf.Config import Config
+from Common import Request
+from Common import Consts
+from Common import Assert
 
 
 class TestBasic:

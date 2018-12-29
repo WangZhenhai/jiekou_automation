@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/8/30 下午2:13
-# @Author  : WangJuan
 # @File    : Hash.py
 """
 封装各种加密方法
@@ -9,9 +8,9 @@
 
 from hashlib import sha1
 from hashlib import md5
-from API_Automation.Crypto.Hash import SHA256
-from API_Automation.Crypto.Cipher import AES
-from API_Automation.Crypto.Cipher import DES
+from Crypto.Hash import SHA256
+from Crypto.Cipher import AES
+from Crypto.Cipher import DES
 import binascii
 
 

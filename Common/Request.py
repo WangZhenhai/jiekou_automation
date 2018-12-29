@@ -12,7 +12,7 @@ import os
 import random
 import requests
 import Common.Consts
-from API_Automation.Common import Session
+from Common import Session
 from requests_toolbelt import MultipartEncoder
 
 

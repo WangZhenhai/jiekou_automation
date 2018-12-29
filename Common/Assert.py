@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/8/21 下午10:14
-# @Author  : WangJuan
 # @File    : Assert.py
 
 
@@ -8,8 +7,8 @@
 封装Assert方法
 
 """
-from API_Automation.Common import Log
-from API_Automation.Common import Consts
+from Common import Log
+from Common import Consts
 import json
 
 

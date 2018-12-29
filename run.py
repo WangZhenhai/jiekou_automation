@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/7/31 上午10:42
-# @Author  : WangJuan
 # @File    : run.py
 
 """
@@ -44,7 +43,7 @@ if __name__ == '__main__':
         log.error('执行用例失败，请检查环境配置')
         raise
 
-    from API_Automation.Common import Email
+    from Common import Email
     try:
         mail = Email.SendMail()
         mail.sendMail()

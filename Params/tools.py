@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/7/31 上午10:56
-# @Author  : WangJuan
 # @File    : tools.py
 
 """

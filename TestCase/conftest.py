@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/8/1 下午2:37
-# @Author  : WangJuan
 # @File    : conftest.py
 
 """
@@ -25,8 +24,8 @@ import pytest
 
 sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
 
-from API_Automation.Conf.Config import Config
-from API_Automation.Common import Consts
+from Conf.Config import Config
+from Common import Consts
 
 
 @pytest.fixture()

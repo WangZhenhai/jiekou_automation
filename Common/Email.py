@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/7/19 下午5:23
-# @Author  : WangJuan
 # @File    : Email.py
 
 """
@@ -13,9 +12,9 @@ from email.header import Header
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from API_Automation.Common import Consts
-from API_Automation.Common import Log
-from API_Automation.Conf.Config import Config
+from Common import Consts
+from Common import Log
+from Conf.Config import Config
 
 
 class SendMail:
